@@ -49,7 +49,7 @@ public class Score {
 						   .append(kor + math + eng)
 						   .append(" 점\n")
 						   .append("평균 : ")
-						   .append((kor + math + eng) / 3.0)
+						   .append(String.format("%.1f", (kor + math + eng) / 3.0))
 						   .append(" 점\n").toString();
 		System.out.println(sb);
 		
