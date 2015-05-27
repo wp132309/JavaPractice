@@ -29,7 +29,7 @@ public class IdolGroup {
 		};
 		
 		for(int i=0; i<idolGroup.length; i++) {
-			System.out.println("<< " + idolGroup[i] + ">>");
+			System.out.println("<< " + idolGroup[i] + " >>");
 			for(int j=0; j<members[i].length; j++) {
 				System.out.println(members[i][j]);
 			}
