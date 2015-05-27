@@ -34,7 +34,5 @@ public class IdolGroup {
 				System.out.println(members[i][j]);
 			}
 		}
-
 	}
-
 }
