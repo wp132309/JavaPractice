@@ -23,6 +23,11 @@ public class PiggyBank {
 		PiggyBank.balance += amount;
 	}
 	
+	public static void stillMoney(FamilyMember member, int amount) {
+		System.out.println(member.getMemberName() + " " + amount + "원 뺌");
+		PiggyBank.balance -= amount;
+	}
+	
 	public static void printBalance() {
 		System.out.println("돼지저금통 총 금액 : " + PiggyBank.balance);
 	}
