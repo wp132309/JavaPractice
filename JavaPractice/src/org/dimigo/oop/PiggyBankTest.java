@@ -29,11 +29,11 @@ public class PiggyBankTest {
 		FamilyMember.printMemberCnt();
 		
 		PiggyBank.putMoney(members[0], 10000);
-	    PiggyBank.putMoney(members[1], 5000);
-	    PiggyBank.putMoney(members[2], 2000);
-	    PiggyBank.putMoney(members[3], 1000);
-	    PiggyBank.printBalance();
-	    PiggyBank.putMoney(members[2], 1000);
-	    PiggyBank.printBalance();
+		PiggyBank.putMoney(members[1], 5000);
+		PiggyBank.putMoney(members[2], 2000);
+		PiggyBank.putMoney(members[3], 1000);
+		PiggyBank.printBalance();
+		PiggyBank.putMoney(members[2], 1000);
+		PiggyBank.printBalance();
 	}
 }
