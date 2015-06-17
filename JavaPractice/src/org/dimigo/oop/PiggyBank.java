@@ -23,7 +23,7 @@ public class PiggyBank {
 		PiggyBank.balance += amount;
 	}
 	
-	public static void stillMoney(FamilyMember member, int amount) {
+	public static void stealMoney(FamilyMember member, int amount) {
 		System.out.println(member.getMemberName() + " " + amount + "원 뺌");
 		PiggyBank.balance -= amount;
 	}
