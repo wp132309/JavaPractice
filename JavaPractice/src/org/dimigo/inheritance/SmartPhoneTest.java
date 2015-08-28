@@ -31,7 +31,7 @@ public class SmartPhoneTest {
 			phone.turnOn();
 			phone.pay();
 			
-			phone.useSpecialFunction(phone);
+			phone.useSpecialFunction();
 			
 			phone.turnOff();
 			System.out.println();
